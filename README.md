@@ -50,7 +50,7 @@ Since this is a static website, you do not need any backend setup or build tools
 
 ## 🔗 Important Links
 
-*   **Live Demo Link:** [[Insert Live Demo Link Here]]
+*   **Live Demo Link:** [https://sohambanerjee314-star.github.io/UIUX_Frontend_Task_Soham_Banerjee/](https://sohambanerjee314-star.github.io/UIUX_Frontend_Task_Soham_Banerjee/)
 
 ---
 *Designed and developed by Soham Banerjee.*
