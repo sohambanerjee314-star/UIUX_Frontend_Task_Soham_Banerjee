@@ -194,4 +194,27 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         animate();
     }
+
+    // 8. Password Visibility Toggle
+    const togglePasswordBtn = document.getElementById('togglePassword');
+    const passwordInput = document.getElementById('password');
+    
+    if (togglePasswordBtn && passwordInput) {
+        togglePasswordBtn.addEventListener('click', function() {
+            const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
+            passwordInput.setAttribute('type', type);
+            
+            // Toggle icons
+            const eyeOpen = this.querySelector('#eye-open');
+            const eyeClosed = this.querySelector('#eye-closed');
+            
+            if (type === 'text') {
+                eyeOpen.style.display = 'none';
+                eyeClosed.style.display = 'block';
+            } else {
+                eyeOpen.style.display = 'block';
+                eyeClosed.style.display = 'none';
+            }
+        });
+    }
 });
