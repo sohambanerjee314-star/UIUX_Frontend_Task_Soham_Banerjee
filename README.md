@@ -46,7 +46,7 @@ Since this is a static website, you do not need any backend setup or build tools
 ![Desktop Screenshot]([Insert Desktop Image URL Here])
 
 **Mobile View:**
-![Mobile Screenshot](./mobile-preview.png)
+![Mobile Screenshot](./mobile-preview.jpeg)
 
 ## 🔗 Important Links
 
