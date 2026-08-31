@@ -43,15 +43,15 @@ Since this is a static website, you do not need any backend setup or build tools
 *(Desktop and Mobile previews of the redesign)*
 
 **Desktop View:**
-![Desktop Screenshot](desktop-screenshot.png)
+![Desktop Screenshot]([Insert Desktop Image URL Here])
 
 **Mobile View:**
-![Mobile Screenshot](mobile-screenshot.jpg)
+![Mobile Screenshot](./mobile-preview.png)
 
 ## 🔗 Important Links
 
 *   **Figma Design Link:** [[Insert Figma Link Here]]
-*   **Live Demo Link:** [https://sohambanerjee314-star.github.io/UIUX_Frontend_Task_Soham_Banerjee/](https://sohambanerjee314-star.github.io/UIUX_Frontend_Task_Soham_Banerjee/)
+*   **Live Demo Link:** [[Insert Live Demo Link Here]]
 
 ---
 *Designed and developed by Soham Banerjee.*
