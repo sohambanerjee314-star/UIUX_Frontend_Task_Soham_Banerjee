@@ -51,6 +51,7 @@ Since this is a static website, you do not need any backend setup or build tools
 ## 🔗 Important Links
 
 *   **Live Demo Link:** [https://uiux-frontend-task-soham-banerjee.vercel.app/](https://uiux-frontend-task-soham-banerjee.vercel.app/)
+*   **Figma Design:** [https://www.figma.com/design/D6G3RHKozgGXVoBAbpdlZo/Untitled?node-id=0-1&t=eCSnQ8xyny1W84pm-1](https://www.figma.com/design/D6G3RHKozgGXVoBAbpdlZo/Untitled?node-id=0-1&t=eCSnQ8xyny1W84pm-1)
 
 ---
 *Designed and developed by Soham Banerjee.*
