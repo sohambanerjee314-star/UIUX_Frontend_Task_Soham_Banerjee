@@ -43,7 +43,7 @@ Since this is a static website, you do not need any backend setup or build tools
 *(Desktop and Mobile previews of the redesign)*
 
 **Desktop View:**
-![Desktop Screenshot]([Insert Desktop Image URL Here])
+![Desktop Screenshot](./Desktop-preview.png)
 
 **Mobile View:**
 ![Mobile Screenshot](./mobile-preview.jpeg)
