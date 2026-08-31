@@ -53,6 +53,11 @@ Since this is a static website, you do not need any backend setup or build tools
 1. Clone the repository and navigate to the project folder.
 2. Simply double-click `index.html` to open it in your default web browser.
 
+## 🔗 Important Links
+
+*   **Figma Design:** [https://www.figma.com/design/D6G3RHKozgGXVoBAbpdlZo/Untitled?node-id=0-1&t=eCSnQ8xyny1W84pm-1](https://www.figma.com/design/D6G3RHKozgGXVoBAbpdlZo/Untitled?node-id=0-1&t=eCSnQ8xyny1W84pm-1)
+*   **Live Demo Link:** [https://uiux-frontend-task-soham-banerjee.vercel.app/](https://uiux-frontend-task-soham-banerjee.vercel.app/)
+
 ## 📸 Previews
 
 ### Desktop View
