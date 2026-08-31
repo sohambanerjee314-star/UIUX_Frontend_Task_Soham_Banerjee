@@ -50,7 +50,6 @@ Since this is a static website, you do not need any backend setup or build tools
 
 ## 🔗 Important Links
 
-*   **Figma Design Link:** [[Insert Figma Link Here]]
 *   **Live Demo Link:** [[Insert Live Demo Link Here]]
 
 ---
