@@ -1,57 +1,68 @@
-# UIUX_Frontend_Task_Soham_Banerjee
+<div align="center">
+  
+  # 🚁 DroneTV Website Redesign
+  
+  **UI/UX Designer & Frontend Developer Internship Task for IPAGE Group**
+  
+  [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](#)
+  [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](#)
+  [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](#)
+  
+  <br />
 
-This repository contains my practical test assignment for the **UI/UX Designer & Frontend Developer Internship** at **IPAGE Group**. The objective of this project was to completely redesign and build the front-end for the DroneTV website.
+  ### 🔗 [Live Demo](https://uiux-frontend-task-soham-banerjee.vercel.app/) | 🎨 [Figma Design](https://www.figma.com/design/D6G3RHKozgGXVoBAbpdlZo/Untitled?node-id=0-1&t=eCSnQ8xyny1W84pm-1)
+  
+</div>
 
-## 📖 Project Description
+---
 
-This project is a modern, responsive redesign of the DroneTV website. It is built strictly from a custom Figma design and encompasses the following 5 distinct pages:
+## 📖 Project Overview
 
-1. **Home** (`index.html`) - A cinematic landing page highlighting premium drone services and courses.
-2. **Services** (`services.html`) - A detailed grid layout showcasing industrial drone solutions.
-3. **Courses** (`courses.html`) - A pricing and feature tier overview for drone piloting courses.
-4. **Login** (`login.html`) - A sleek, glassmorphic authentication interface.
-5. **User Dashboard** (`dashboard.html`) - A complex layout featuring a navigation sidebar, high-level statistics, and a recent activity log.
+This repository contains my practical test assignment for the **UI/UX Designer & Frontend Developer Internship** at **IPAGE Group**. The objective was to completely redesign and build the front-end for the DroneTV website, translating a custom Figma design into a fully functional, pixel-perfect, and responsive web experience.
 
-## 🛠️ Technologies Used
+## ✨ Key Features & Pages
+
+The project encompasses 5 distinct pages, each built with attention to detail and modern UI/UX principles:
+
+- 🏠 **Home (`index.html`)** - A cinematic landing page highlighting premium drone services and courses.
+- 🛠️ **Services (`services.html`)** - A detailed grid layout showcasing industrial drone solutions.
+- 🎓 **Courses (`courses.html`)** - A pricing and feature tier overview for drone piloting courses.
+- 🔐 **Login (`login.html`)** - A sleek, glassmorphic authentication interface.
+- 📊 **User Dashboard (`dashboard.html`)** - A complex layout featuring a navigation sidebar, high-level statistics, and a recent activity log.
+
+## 🛠️ Tech Stack & Methodology
 
 The project was built adhering strictly to core web technologies to demonstrate strong fundamental front-end skills. **No external frameworks, UI libraries (like Bootstrap or Tailwind), or JavaScript libraries (like React or Vue) were used.**
 
-*   **HTML5:** Semantic structuring and accessible layout.
-*   **CSS3:** Custom CSS variables for a unified design system, glassmorphism effects, flexbox/grid layouts, and responsive media queries.
-*   **Vanilla JavaScript (ES6+):** Interactive mobile hamburger menu, dynamic active link highlighting, scroll reveal animations, and advanced hover states (3D card tilt & button ripples).
+| Technology | Implementation Details |
+| :--- | :--- |
+| **HTML5** | Semantic structuring and accessible layout. |
+| **CSS3** | Custom CSS variables for a unified design system, glassmorphism effects, flexbox/grid layouts, and responsive media queries. |
+| **Vanilla JS** | Interactive mobile hamburger menu, dynamic active link highlighting, scroll reveal animations, and advanced hover states (3D card tilt & button ripples). |
 
-## 🚀 How to Run the Project
+## 🚀 Getting Started
 
-Since this is a static website, you do not need any backend setup or build tools to run it. 
+Since this is a static website, you do not need any backend setup or build tools to run it.
 
-### Option 1: Direct File Open
-1. Clone this repository to your local machine:
-   ```bash
-   git clone https://github.com/sohambanerjee314-star/UIUX_Frontend_Task_Soham_Banerjee.git
-   ```
-2. Navigate to the project folder.
-3. Simply double-click `index.html` to open it in your default web browser.
-
-### Option 2: Using VS Code Live Server (Recommended)
-1. Open the project folder in Visual Studio Code.
-2. Install the **Live Server** extension if you haven't already.
+### Option 1: Live Server (Recommended)
+1. Clone this repository: `git clone https://github.com/sohambanerjee314-star/UIUX_Frontend_Task_Soham_Banerjee.git`
+2. Open the folder in **VS Code**.
 3. Right-click on `index.html` and select **"Open with Live Server"**.
-4. The website will automatically launch and reload upon any changes.
 
-## 📸 Screenshots
+### Option 2: Direct File Open
+1. Clone the repository and navigate to the project folder.
+2. Simply double-click `index.html` to open it in your default web browser.
 
-*(Desktop and Mobile previews of the redesign)*
+## 📸 Previews
 
-**Desktop View:**
-![Desktop Screenshot](./Desktop-preview.png)
+### Desktop View
+<img src="./Desktop-preview.png" alt="Desktop Screenshot" width="100%" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-bottom: 20px;">
 
-**Mobile View:**
-![Mobile Screenshot](./mobile-preview.jpeg)
-
-## 🔗 Important Links
-
-*   **Figma Design:** [https://www.figma.com/design/D6G3RHKozgGXVoBAbpdlZo/Untitled?node-id=0-1&t=eCSnQ8xyny1W84pm-1](https://www.figma.com/design/D6G3RHKozgGXVoBAbpdlZo/Untitled?node-id=0-1&t=eCSnQ8xyny1W84pm-1)
-*   **Live Demo Link:** [https://uiux-frontend-task-soham-banerjee.vercel.app/](https://uiux-frontend-task-soham-banerjee.vercel.app/)
+### Mobile View
+<img src="./mobile-preview.jpeg" alt="Mobile Screenshot" width="300px" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
 ---
-*Designed and developed by Soham Banerjee.*
+
+<div align="center">
+  <i>Designed and developed with ❤️ by <b>Soham Banerjee</b></i>
+</div>
