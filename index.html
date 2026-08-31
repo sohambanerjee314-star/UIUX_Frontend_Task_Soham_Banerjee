@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AeroVision | Premium Aerial Videography</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container navbar">
+            <a href="index.html" class="logo">
+                <span class="logo-icon"></span>
+                AeroVision
+            </a>
+            <button class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="courses.html">Courses</a>
+                <a href="login.html" class="btn btn-primary">Sign In</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero container reveal">
+            <canvas id="hero-canvas"></canvas>
+            <div class="hero-content">
+                <h1>Capture the World from <span class="gradient-text">New Perspectives</span></h1>
+                <p>Professional drone videography, surveying, and pilot training for creators and enterprises.</p>
+                <div class="hero-btns">
+                    <a href="services.html" class="btn btn-primary">Explore Services</a>
+                    <a href="courses.html" class="btn btn-outline">Learn to Fly</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="container reveal">
+            <h2 class="section-title">Why Choose AeroVision?</h2>
+            <div class="grid-3">
+                <div class="card glass-panel reveal">
+                    <div class="card-icon">4K</div>
+                    <h3>Cinematic Quality</h3>
+                    <p>We use state-of-the-art FPV and cinema drones to capture breathtaking 4K and 8K footage.</p>
+                </div>
+                <div class="card glass-panel reveal">
+                    <div class="card-icon">🎯</div>
+                    <h3>Precision Surveying</h3>
+                    <p>High-accuracy mapping and 3D modeling for real estate, agriculture, and construction.</p>
+                </div>
+                <div class="card glass-panel reveal">
+                    <div class="card-icon">🎓</div>
+                    <h3>Expert Training</h3>
+                    <p>Learn from certified instructors and master the art of aerial videography.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- New Statistics Section -->
+        <section class="container reveal" style="padding: 4rem 0;">
+            <div class="glass-panel" style="padding: 3rem; text-align: center; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem;">
+                <div class="reveal">
+                    <div class="text-cyan" style="font-size: 3rem; font-weight: 800; margin-bottom: 0.5rem;">500+</div>
+                    <p class="text-muted">Projects Completed</p>
+                </div>
+                <div class="reveal">
+                    <div class="text-orange" style="font-size: 3rem; font-weight: 800; margin-bottom: 0.5rem;">150+</div>
+                    <p class="text-muted">Certified Pilots</p>
+                </div>
+                <div>
+                    <div class="text-cyan" style="font-size: 3rem; font-weight: 800; margin-bottom: 0.5rem;">10K+</div>
+                    <p class="text-muted">Flight Hours</p>
+                </div>
+                <div class="reveal">
+                    <div class="text-orange" style="font-size: 3rem; font-weight: 800; margin-bottom: 0.5rem;">50+</div>
+                    <p class="text-muted">Enterprise Clients</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- New Courses Preview Section -->
+        <section class="container reveal" style="padding: 4rem 0;">
+            <div style="text-align: center; margin-bottom: 3rem;">
+                <h2 class="section-title" style="margin-bottom: 1rem;">Featured Courses</h2>
+                <p class="text-muted">Start your journey to becoming a certified drone pilot today.</p>
+            </div>
+            <div class="grid-3">
+                <div class="card glass-panel reveal" style="display: flex; flex-direction: column;">
+                    <h3>Drone Fundamentals</h3>
+                    <p class="text-cyan" style="font-size: 1.5rem; font-weight: 700; margin: 1rem 0;">$99</p>
+                    <p style="margin-bottom: 1.5rem; flex: 1;">Perfect for first-time pilots. Learn safety regulations and basic controls.</p>
+                    <a href="courses.html" class="btn btn-outline" style="text-align: center;">View Course</a>
+                </div>
+                <div class="card glass-panel reveal" style="display: flex; flex-direction: column; border-color: var(--primary-cyan);">
+                    <h3>Cinematic Mastery</h3>
+                    <p class="text-orange" style="font-size: 1.5rem; font-weight: 700; margin: 1rem 0;">$199</p>
+                    <p style="margin-bottom: 1.5rem; flex: 1;">Elevate your footage. Advanced camera moves and color grading.</p>
+                    <a href="courses.html" class="btn btn-primary" style="text-align: center;">View Course</a>
+                </div>
+                <div class="card glass-panel reveal" style="display: flex; flex-direction: column;">
+                    <h3>Pro FPV Academy</h3>
+                    <p class="text-cyan" style="font-size: 1.5rem; font-weight: 700; margin: 1rem 0;">$299</p>
+                    <p style="margin-bottom: 1.5rem; flex: 1;">Dive into the adrenaline-pumping world of Acro FPV flying.</p>
+                    <a href="courses.html" class="btn btn-outline" style="text-align: center;">View Course</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>AeroVision</h3>
+                    <p class="text-muted">Elevating your perspective with cutting-edge drone technology.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li class="text-muted">support@aerovision.com</li>
+                        <li class="text-muted">+1 (555) 123-4567</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 AeroVision. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | AeroVision</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container navbar">
+            <a href="index.html" class="logo">
+                <span class="logo-icon"></span>
+                AeroVision
+            </a>
+            <div style="display: flex; align-items: center; gap: 1rem;">
+                <span style="font-weight: 500; color: var(--primary-cyan);">Welcome, Pilot</span>
+                <img src="https://ui-avatars.com/api/?name=Pilot&background=0D8ABC&color=fff&rounded=true" alt="Profile" style="width: 40px; height: 40px; border-radius: 50%;">
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="dashboard-layout">
+            <!-- Sidebar -->
+            <aside class="sidebar glass-panel">
+                <nav class="sidebar-nav">
+                    <a href="#" class="active">
+                        <span>📊</span> Overview
+                    </a>
+                    <a href="#">
+                        <span>🎓</span> My Courses
+                    </a>
+                    <a href="#">
+                        <span>🚁</span> Flight Logs
+                    </a>
+                    <a href="#">
+                        <span>📅</span> Service Requests
+                    </a>
+                    <a href="#">
+                        <span>⚙️</span> Settings
+                    </a>
+                    <a href="index.html" style="margin-top: 2rem; color: #ef4444;">
+                        <span>🚪</span> Sign Out
+                    </a>
+                </nav>
+            </aside>
+
+            <!-- Main Content -->
+            <div class="dashboard-content">
+                <div class="dashboard-header">
+                    <h2>Dashboard Overview</h2>
+                    <button class="btn btn-primary">Book New Service</button>
+                </div>
+
+                <div class="stat-grid">
+                    <div class="stat-card glass-panel">
+                        <h4 class="text-muted">Total Flight Hours</h4>
+                        <div class="stat-value">124.5</div>
+                        <p class="text-cyan">+12.5 hrs this month</p>
+                    </div>
+                    <div class="stat-card glass-panel">
+                        <h4 class="text-muted">Courses Completed</h4>
+                        <div class="stat-value">3</div>
+                        <p class="text-orange">1 course in progress</p>
+                    </div>
+                    <div class="stat-card glass-panel">
+                        <h4 class="text-muted">Active Projects</h4>
+                        <div class="stat-value">2</div>
+                        <p class="text-cyan">Pending review</p>
+                    </div>
+                </div>
+
+                <div class="dashboard-panel glass-panel">
+                    <div class="panel-header" style="display: flex; justify-content: space-between; align-items: center;">
+                        <h3>Recent Activity</h3>
+                        <a href="#" class="text-cyan" style="font-size: 0.875rem;">View All</a>
+                    </div>
+                    <div style="display: flex; flex-direction: column; gap: 1rem;">
+                        <div style="display: flex; justify-content: space-between; align-items: center; padding: 1rem; background: rgba(255,255,255,0.02); border-radius: 8px;">
+                            <div>
+                                <h4 style="margin-bottom: 0.25rem;">Cinematic Mastery Course</h4>
+                                <p class="text-muted" style="font-size: 0.875rem;">Completed Module 4: ND Filters</p>
+                            </div>
+                            <span style="color: var(--text-muted); font-size: 0.875rem;">2 hours ago</span>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; align-items: center; padding: 1rem; background: rgba(255,255,255,0.02); border-radius: 8px;">
+                            <div>
+                                <h4 style="margin-bottom: 0.25rem;">Real Estate Survey - Downtown</h4>
+                                <p class="text-muted" style="font-size: 0.875rem;">Service request approved. Scheduled for Oct 12.</p>
+                            </div>
+                            <span style="color: var(--text-muted); font-size: 0.875rem;">Yesterday</span>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; align-items: center; padding: 1rem; background: rgba(255,255,255,0.02); border-radius: 8px;">
+                            <div>
+                                <h4 style="margin-bottom: 0.25rem;">Flight Log Upload</h4>
+                                <p class="text-muted" style="font-size: 0.875rem;">DJI Mavic 3 Cine - 45 mins flight time synced.</p>
+                            </div>
+                            <span style="color: var(--text-muted); font-size: 0.875rem;">Oct 8, 2026</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer style="margin-top: 0;">
+        <div class="container">
+            <div class="footer-bottom" style="border-top: none; padding-top: 2rem;">
+                <p>&copy; 2026 AeroVision. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
